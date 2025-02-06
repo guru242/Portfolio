@@ -1,20 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import About from './pages/About';
 import Contact from './pages/Contact';
-import Home from './pages/Homepage';
+import Homepage from './pages/Homepage'; // Assuming this is the correct component
 import Project from './pages/Project';
-import Service from './pages/Service';
-import Skill from './pages/Skills';
+import Skills from './pages/Skills'; // eslint-disable-next-line
 function App() {
   return (
     <div>
-      <Home />
+      <Homepage /> {/* Use the correct component name here */}
       {/* <About />
-      <Service />
-      <Skill />
+      <Service /> */}
+      <Skills /> {/* Corrected from Skill to Skills */}
       <Project />
-      <Contact /> */}
+      <Contact /> */
     </div>
   );
 }

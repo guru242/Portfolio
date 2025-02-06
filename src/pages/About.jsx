@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaLink } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SiLeetcode } from "react-icons/si";
 
-const About = () => {
+const About = () => { // eslint-disable-next-line
   return (
     <section className="py-20 relative bg-white-500 overflow-hidden">
       <motion.div

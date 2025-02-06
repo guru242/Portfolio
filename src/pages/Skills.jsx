@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 
-const Skill = () => {
+const Skills = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -87,4 +87,4 @@ const skills = [
   { icon: faServer, color: "gray-700", label: "CI/CD" },
 ];
 
-export default Skill;
+export default Skills;
